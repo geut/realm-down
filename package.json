@@ -1,0 +1,37 @@
+{
+  "name": "realm-down",
+  "version": "1.0.0",
+  "description": "LevelDB-compatible data store for Realm.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape tests/index.js",
+    "posttest": "npm run lint",
+    "lint": "standard"
+  },
+  "keywords": ["realm", "leveldb", "leveldown", "level"],
+  "homepage": "http://geutstudio.com",
+  "author": {
+    "name": "GEUT",
+    "email": "contact@geutstudio.com"
+  },
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/geut/realm-down.git"
+  },
+  "bugs": {
+    "url": "https://github.com/geut/realm-down/issues"
+  },
+  "devDependencies": {
+    "hypercore": "^6.24.0",
+    "levelup": "^4.0.0",
+    "random-access-key-value": "git+https://github.com/tinchoz49/random-access-key-value.git",
+    "standard": "^12.0.1",
+    "tape": "^4.9.2",
+    "tmp": "0.0.33"
+  },
+  "dependencies": {
+    "abstract-leveldown": "^6.0.1",
+    "realm": "^2.22.0"
+  }
+}

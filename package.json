@@ -8,7 +8,12 @@
     "posttest": "npm run lint",
     "lint": "standard"
   },
-  "keywords": ["realm", "leveldb", "leveldown", "level"],
+  "keywords": [
+    "realm",
+    "leveldb",
+    "leveldown",
+    "level"
+  ],
   "homepage": "http://geutstudio.com",
   "author": {
     "name": "GEUT",
